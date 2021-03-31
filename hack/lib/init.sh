@@ -20,6 +20,7 @@ image/v1 \
 imageregistry/v1 \
 kubecontrolplane/v1 \
 legacyconfig/v1 \
+loadbalancer/v1 \
 network/v1 \
 networkoperator/v1 \
 oauth/v1 \
@@ -44,7 +45,6 @@ github.com/openshift/api/authorization/v1,\
 github.com/openshift/api/build/v1,\
 github.com/openshift/api/image/v1,\
 github.com/openshift/api/network/v1,\
-github.com/openshift/api/networkoperator/v1,\
 github.com/openshift/api/oauth/v1,\
 github.com/openshift/api/project/v1,\
 github.com/openshift/api/quota/v1,\
@@ -53,4 +53,5 @@ github.com/openshift/api/samples/v1,\
 github.com/openshift/api/security/v1,\
 github.com/openshift/api/template/v1,\
 github.com/openshift/api/user/v1\
+github.com/openshift/api/loadbalancer/v1,\
 "

@@ -35,6 +35,7 @@ $(call add-crd-gen,securityinternal,./securityinternal/v1,./securityinternal/v1,
 $(call add-crd-gen,network,./network/v1,./network/v1,./network/v1)
 $(call add-crd-gen,networkoperator,./networkoperator/v1,./networkoperator/v1,./networkoperator/v1)
 $(call add-crd-gen,operatorcontrolplane,./operatorcontrolplane/v1alpha1,./operatorcontrolplane/v1alpha1,./operatorcontrolplane/v1alpha1)
+$(call add-crd-gen,loadbalancer,./loadbalancer/v1,./loadbalancer/v1,./loadbalancer/v1)
 
 RUNTIME ?= podman
 RUNTIME_IMAGE_NAME ?= openshift-api-generator

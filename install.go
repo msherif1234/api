@@ -54,6 +54,7 @@ import (
 	"github.com/openshift/api/servicecertsigner"
 	"github.com/openshift/api/template"
 	"github.com/openshift/api/user"
+	"github.com/openshift/api/loadbalancer"
 
 	// just make sure this compiles.  Don't add it to a scheme
 	_ "github.com/openshift/api/legacyconfig/v1"
@@ -84,6 +85,7 @@ var (
 		servicecertsigner.Install,
 		template.Install,
 		user.Install,
+		loadbalancer.Install,
 	)
 	// Install is a function which adds every version of every openshift group to a scheme
 	Install = schemeBuilder.AddToScheme
